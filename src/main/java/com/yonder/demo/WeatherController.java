@@ -29,7 +29,7 @@ class WeatherController {
     @Autowired
     public WeatherController(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
-        logger.info("WeatherController instantiated"); // TODO to be deleted after everything works fine
+        logger.info("WeatherController instantiated");
     }
 
     @GetMapping("/api/weather")
